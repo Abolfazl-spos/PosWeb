@@ -1,0 +1,105 @@
+body,html
+{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  background:#283234;
+  font-family:tahoma,consolas,monospace,sans-serif;
+  font-family: 15px;
+  color:#aec093;
+}
+@media screen and (min-width:0px) and (max-width:476px)
+{
+  nav{
+    width:92.5%;
+    margin:3.5%;
+    margin-top:1%;
+    height:7%;
+    background: linear-gradient(#2a2a2a,#4c3e45);
+  }
+  nav ul{ margin:0; }
+  nav li{
+    padding: 1%;
+    width:42%;
+    height:1000%;
+    text-align: center;
+    background: linear-gradient(#625059,#370210);
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  nav li a{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+    color:#aec093;
+  }
+  nav li:hover{
+    background: linear-gradient(lightgreen,green);
+  }
+  .page
+  {
+    width:95%;
+    height:60%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background:linear-gradient(90deg,#370210,#172b3d);
+    border-radius:15px;
+    margin-bottom:4%;
+    overflow:hidden;
+  }
+  .page .position
+  {
+    width:100%;
+    height:75%;
+  }
+  .page .position img
+  {
+    width:95%;
+    height:100%;
+    padding:2.5%;
+    padding-bottom:0;
+    border-radius: 15px;
+  }
+  .position-line
+  {
+    position: relative;
+    top:-101%;
+    width:95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    border-radius: 5px;
+    height:100%;
+    background-color:rgba(255, 255, 0, .3);
+  }
+  h3,h2,h1,p,input[type=range] { text-align:center; margin:0; padding:0; }
+  input[type=range]{ 
+    width:90%;
+    transform: translateX(-5%);
+  }
+}
+@IMPORT
+@media screen and (min-width:451px) and (max-width:900px)
+{
+  body
+  {
+    background: yellow;
+  }
+}
+@media screen and (min-width:901px) and (max-width:1350px)
+{
+  body
+  {
+    background: green;
+  }
+}
+@media screen and (min-width:1351px)
+{
+  body
+  {
+    background: blue;
+  }
+}
