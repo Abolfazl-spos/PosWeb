@@ -81,7 +81,6 @@ body,html
     transform: translateX(-5%);
   }
 }
-@IMPORT
 @media screen and (min-width:451px) and (max-width:900px)
 {
   body
